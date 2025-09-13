@@ -13,7 +13,7 @@ async function loadcards() {
                 <p class="badge-p">شیراز</p>
             </div>
             <button class="btn btn-primary ms-3 mt-2">${cards.price} تومان</button>
-            <div class="sell d-flex justify-content-between mt-2 ms-3">
+            <div class="sell d-flex justify-content-between ms-3 mt-2">
                 <div>
                     <p class="sell-p">در 186 فروشگاه</p>
                 </div>
