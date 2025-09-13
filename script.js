@@ -1,6 +1,6 @@
 async function loadcards() {
-    const result = await fetch('data.json')
-    const ready = await result.json()
+    const result = document.getElementById('json-source').textContent
+    const ready = JSON.parse(result)
     let container = document.getElementById('cards-container')
     ready.forEach(cards => {
         let card_product = document.createElement('div')
